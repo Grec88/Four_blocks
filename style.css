@@ -1,0 +1,80 @@
+html, body{
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.blue{
+	background-color: #0079C8;
+	color:#EDEDEE;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+}
+
+#title{
+	margin: 0 0 10px 50px;
+}
+
+.area1{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+h1{
+	width: 50%;
+	height: 50%;
+	margin: 0 0 0 50px;
+}
+
+#appoint{
+	margin: 0 50px 0 0;
+	width: 30%;
+	height: 50px;
+	align-self: center;
+	padding: 0;
+	border-radius: 10px;
+	border-color: #0079C8;
+	color: #328CD6;
+	background-color: #F9F9F9;
+	font-weight: bold;
+}
+
+@media (max-width: 800px){
+	h1{
+	font-size: 27px;
+}
+#title, #appoint{
+	font-size: 13.5px;
+}
+}
+
+@media (max-width: 670px){
+	h1{
+	font-size: 23px;
+}
+#title, #appoint{
+	font-size: 11.5px;
+}
+}
+
+@media (max-width: 571px){
+	h1{
+	font-size: 20px;
+}
+#title, #appoint{
+	font-size: 10px;
+}
+}
+
+@media (max-width: 520px){
+	h1{
+	font-size: 18px;
+}
+#title, #appoint{
+	font-size: 9px;
+}
+}
+
