@@ -1,39 +1,50 @@
-html, body{
+html,
+body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	/*	overflow: hidden;*/
 }
 
-.container{
-	max-width: 900px;
-	margin: 50px auto;
+/** {
+    outline: solid 1px red;
+}
+*/
+
+.container {
+	max-width: 927px;
+	margin: 2em auto;
 	background-color: #0079C8;
-	color:#EDEDEE;
-	width: 100%;
-	padding: 20px 50px 20px 50px;
+	color: #EDEDEE;
+	padding: 1em 2em 1em 2em;
 }
 
-.title{
+.blue {
+	background-color: #0079C8;
+	color: #EDEDEE;
+}
+
+.title {
 	margin: 0;
 }
 
-.section{
-	width:100%;
+.section {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	min-width: 0;
 }
 
-h1{
+.subject {
 	width: 50%;
-	height: 50%;
 	margin: 0;
 }
 
-.btn{
+.btn {
 	margin: 0;
 	width: 30%;
-	height: 50px;
+	height: 3em;
 	align-self: center;
 	padding: 0;
 	border-radius: 10px;
@@ -43,38 +54,143 @@ h1{
 	font-weight: bold;
 }
 
-@media (max-width: 800px){
-	h1{
-	font-size: 27px;
-}
-.title, .btn{
-	font-size: 13.5px;
-}
+@media (max-width: 800px) {
+
+	.subject,
+	.caption {
+		font-size: 22px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 13px;
+	}
+
+	.icon {
+		width: 472px;
+		height: 350px;
+	}
 }
 
-@media (max-width: 670px){
-	h1{
-	font-size: 23px;
-}
-.title, .btn{
-	font-size: 11.5px;
-}
+@media (max-width: 670px) {
+
+	.subject,
+	.caption {
+		font-size: 18px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 11px;
+	}
+
+	.icon {
+		width: 391px;
+		height: 290px;
+	}
 }
 
-@media (max-width: 571px){
-	h1{
-	font-size: 20px;
-}
-.title, .btn{
-	font-size: 10px;
-}
+@media (max-width: 571px) {
+
+	.subject,
+	.caption {
+		font-size: 15px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 10.5px;
+	}
+
+	.icon {
+		width: 342px;
+		height: 254px;
+	}
 }
 
-@media (max-width: 520px){
-	h1{
-	font-size: 18px;
+
+@media (max-width: 520px) {
+
+	.subject,
+	.caption {
+		font-size: 14px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 9px;
+	}
+
+	.icon {
+		width: 304px;
+		height: 226px;
+	}
 }
-.title, .btn{
-	font-size: 9px;
+
+
+@media (max-width: 340px) {
+
+	.subject,
+	.caption {
+		font-size: 13px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 8px;
+	}
+
+	.icon {
+		width: 134px;
+		height: 94px;
+	}
 }
+
+.flex {
+	display: flex;
 }
+
+.box {
+	max-width: 1116px;
+	margin: 6em auto;
+	width: 100%;
+	min-width: 0;
+}
+
+.caption {
+	margin: 0;
+}
+
+.cta {
+	padding: 0.6em 0.6em 0 1.5em;
+}
+
+.text {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.75em;
+	color: #333333;
+}
+
+
+.icon {
+	width: 100%;
+}
+
+.bigger {
+	width: 80%;
+}
+
+.pictures {
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-template-columns: repeat(3, 1fr);
+	margin-bottom: 3em;
+}
+
