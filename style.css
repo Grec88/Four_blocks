@@ -4,13 +4,8 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	/*	overflow: hidden;*/
 }
 
-/** {
-    outline: solid 1px red;
-}
-*/
 
 .container {
 	max-width: 927px;
