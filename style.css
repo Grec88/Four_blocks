@@ -101,6 +101,7 @@ html, body {
 	 gap: 1em;
 	 grid-template-columns: repeat(3, 1fr);
 	 margin-bottom: 3em;
+
 }
  .block{
 	 display: flex;
