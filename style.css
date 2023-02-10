@@ -1,10 +1,24 @@
-html, body{
+html,
+body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100%;
 	width: 100%;
 	margin: 0;
 }
 
+
+
+.container {
+	max-width: 927px;
+	margin: 2em auto;
+	background-color: #0079C8;
+	color: #EDEDEE;
+	padding: 1em 2em 1em 2em;
+}
+
+.blue {
+	background-color: #0079C8;
+	color: #EDEDEE;
 /** {
     outline: solid 1px red;
 }
@@ -21,26 +35,31 @@ html, body{
 .blue{
 	background-color: #0079C8;
 	color:#EDEDEE;
+  main
 }
 
-.title{
+.title {
 	margin: 0;
 }
 
-.section{
-	width:100%;
+.section {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	min-width: 0;
 }
 
+
+.subject {
+
 .subject{
+ main
 	width: 50%;
 	margin: 0;
 	font-si
 }
 
-.btn{
+.btn {
 	margin: 0;
 	width: 30%;
 	height: 3em;
@@ -53,6 +72,63 @@ html, body{
 	font-weight: bold;
 }
 
+
+@media (max-width: 800px) {
+
+	.subject,
+	.caption {
+		font-size: 22px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 13px;
+	}
+
+	.icon {
+		width: 472px;
+		height: 350px;
+	}
+}
+
+@media (max-width: 670px) {
+
+	.subject,
+	.caption {
+		font-size: 18px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 11px;
+	}
+
+	.icon {
+		width: 391px;
+		height: 290px;
+	}
+}
+
+@media (max-width: 571px) {
+
+	.subject,
+	.caption {
+		font-size: 15px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 10.5px;
+	}
+
+	.icon {
+		width: 342px;
+		height: 254px;
+	}
+
 @media (max-width: 800px){
 	.subject, .caption{
 	font-size: 22px;
@@ -64,8 +140,52 @@ html, body{
 .icon{
 	width: 472px;
 	height:350px;
+ main
 }
+
+
+@media (max-width: 520px) {
+
+	.subject,
+	.caption {
+		font-size: 14px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 9px;
+	}
+
+	.icon {
+		width: 304px;
+		height: 226px;
+	}
 }
+
+
+
+@media (max-width: 340px) {
+
+	.subject,
+	.caption {
+		font-size: 13px;
+	}
+
+	.title,
+	.btn,
+	.text {
+		font-size: 8px;
+	}
+
+	.icon {
+		width: 134px;
+		height: 94px;
+	}
+}
+
+.flex {
+	display: flex;
 
 @media (max-width: 670px){
 	.subject, .caption{
@@ -78,8 +198,30 @@ html, body{
 .icon{
 	width: 391px;
 	height:290px;
+ main
 }
+
+.box {
+	max-width: 1116px;
+	margin: 6em auto;
+	width: 100%;
+	min-width: 0;
 }
+
+ 03_promo_text
+.caption {
+	margin: 0;
+}
+
+.cta {
+	padding: 0.6em 0.6em 0 1.5em;
+}
+
+.text {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.75em;
+	color: #333333;
 
 @media (max-width: 571px){
 	.subject, .caption{
@@ -92,7 +234,26 @@ html, body{
 .icon{
 	width: 342px;
 	height: 254px;
+ main
 }
+}
+
+
+
+.icon {
+	width: 100%;
+}
+
+.bigger {
+	width: 80%;
+}
+
+.pictures {
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-template-columns: repeat(3, 1fr);
+	margin-bottom: 3em;
 }
 
 
@@ -156,3 +317,4 @@ color: #333333;
 .bigger{
 	width: 70%;
 }
+
