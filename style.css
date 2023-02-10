@@ -101,5 +101,24 @@ html, body {
 	 gap: 1em;
 	 grid-template-columns: repeat(3, 1fr);
 	 margin-bottom: 3em;
+
+}
+ .block{
+	 display: flex;
+	 gap: 30px;
+	 flex-wrap: wrap;
+	 justify-content: center;
 }
 
+.sub-section{
+	  display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid #b3b3b3;
+    max-width: 20.3125rem;
+    align-items: flex-start;
+	}
+
+ .cyan{
+	 color: cyan;
+}
